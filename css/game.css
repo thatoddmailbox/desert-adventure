@@ -1,11 +1,12 @@
 body {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 0;
 }
-#text {
+#image, #text {
   border-bottom: solid 1px black;
   margin: 0 auto;
   width: 600px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 #actions > ul:before {
