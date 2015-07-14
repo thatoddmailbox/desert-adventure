@@ -8,8 +8,9 @@ body {
   width: 600px;
   padding-bottom: 20px;
 }
-#actions::before {
-  padding-top: 12px;
+#actions > ul:before {
+  padding-bottom: 12px;
+  margin-top: -2px;
   content: "Select an action: ";
   text-align: center;
   display: inline-block;
@@ -25,4 +26,18 @@ body {
   width: 200px;
   height: 30px;
   margin: 0 auto;
+}
+.death::before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Skull_and_crossbones.svg/510px-Skull_and_crossbones.svg.png);
+  background-size: 28px 28px;
+  background-repeat: no-repeat;
+  background-position: 0;
+  padding-left: 32px;
+  padding-top: 2px;
+  color: red;
+  content: "You die.";
+  font-size: 1.5em;
+  line-height: 1.5em;
+  position: relative;
+  top: 5px;
 }
