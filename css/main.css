@@ -1,3 +1,27 @@
 body {
   font-family: Arial, sans-serif;
+  text-align: center;
+}
+.begin {
+  background: blue;
+  color: white;
+  display: inline-block;
+  font-size: 1.3em;
+  
+  width: 200px;
+  height: 35px;
+  line-height: 35px;
+  
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  transition: background .3s;
+}
+.begin:hover {
+  background: #0000cc;
+}
+#title {
+  font-size: 4em;
+  font-weight: normal;
+  margin-bottom: 10px;
 }

@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  padding-top: 20px;
+}
+#text {
+  border-bottom: solid 1px black;
+  margin: 0 auto;
+  width: 600px;
+  padding-bottom: 20px;
+}
+#actions::before {
+  padding-top: 12px;
+  content: "Select an action: ";
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+}
+#actions ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+#actions li {
+  list-style-type: none;
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+}
