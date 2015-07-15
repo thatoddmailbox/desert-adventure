@@ -3,7 +3,10 @@ body {
   font-family: "source Sans Pro", Arial, sans-serif;
   text-align: center;
 }
-.begin {
+a, a:visited {
+  color: #00E;
+}
+a.begin {
   background: blue;
   color: white;
   display: inline-block;
